@@ -1,8 +1,5 @@
-module go-proto
+module github.com/rutvijmehta-harness/go-proto
 
 go 1.17
 
-require (
-	github.com/golang/protobuf v1.5.2 // indirect
-	google.golang.org/protobuf v1.28.0 // indirect
-)
+require google.golang.org/protobuf v1.28.0
