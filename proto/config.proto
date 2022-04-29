@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+//package io.harness.product.ci.addon.proto;
+
+package test;
+
+option go_package = "./build";
+
+import "harness-core/product/ci/addon/proto/addon.proto";
+
+message TestRequest {
+  optional bool test_value=1;
+}
